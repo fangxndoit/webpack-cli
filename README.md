@@ -23,22 +23,20 @@ npm run build
 
 └─src                                      // src 文件夹
 │    ├─pages                               // 页面文件夹
-│    │  ├─about
-│    │  │      about.html
-│    │  │      about.js
-│    │  │      about.less
-│    │  │
-│    │  ├─contact
-│    │  │      contact.css
-│    │  │      contact.html
-│    │  │      contact.js
+│    │  ├─mall
+│    │  │      mall.html
+│    │  │      mall.js
+│    │  │      mall.scss
 │    │  │
 │    │  └─home
 │    │          index.html
 │    │          index.js
-│    │          index.less
+│    │          index.scss
+|    ├─common                       // 公共css/iconfont
+|    |
+|    ├─images                       // 图片
 │    │
-│    └─tools                          // 工具文件夹
+│    └─tools                        // 工具文件夹
 │            utils.js
 |            request.js             // axios 配置
 |            wx-jsdk.js             // 微信 jssdk 配置
